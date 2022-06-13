@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment: To do list</title>
+    <script defer src="script.js?speed=2"></script>
+    <script
+      src="https://kit.fontawesome.com/c0fb0f4b2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" value="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>To do list</h1>
+      <div class="input-task">
+        <div>
+          <input
+            type="input"
+            id="input-task"
+            name="_btn"
+            placeholder="Type new task." required
+        ><label></label>
+        </div>
+        <div class="send-button">
+          <input
+            type="button"
+            id="send-task"
+            name="_btn"
+            value="update"
+          /><label></label>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="container">
+      <li>
+        <h3>
+          <input
+            type="checkbox"
+            class="check"
+            id="check-all"
+            name="check-all"
+            value="check-all"
+          />
+        </h3>
+        <h3 div class="item">nr</h3>
+        <h3 div class="description">description</h3>
+        <h3 div class="time">created on</h3>
+        <h3 div class="finished" id="finished">done</h3>
+        <h3 div class="trash" id="all-trash">
+          <i class="fa-solid fa-trash-can"></i>
+        </h3>
+        <h3 div class="markall" id="markall">mark all done</h3>
+      </li>
+      <div class="container2" id="container2"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+.container, .header, .container2 {min-width: 700px;}
+
+.container li {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  
+}
+
+.item {
+  width: 50px;
+}
+
+.fa-solid :hover {color:black}
+
+
+.time {
+  width: 100px;}
+
+.underline {text-decoration-line: line-through;
+}
+.description {
+  width: 100px;
+  display: inline-block;
+  min-width: 250px;
+  height: auto;
+  line-break:strict;
+}
+.finished {
+  width: 50px;
+}
+
+.mark-done {border: none;
+width:102px;}
+.mark-done :hover{font-weight: bold;}
+  
+
+
+li * {
+  list-style: none;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(221, 224, 226);
+  color: black;
+  opacity: 80%;
+  min-width: 0px;
+  flex-direction: column;
+  padding: 5px;
+  margin: 0.1px;
+}
+
+.input-task { display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;}
+
+#input-task {width: 587px;}
+
+input.check {
+  width: 18px;
+  height: 18px;
+}
+
+#false {
+  color: red;
+  text-align: center;
+}
+
+#true {
+  color: green;
+  text-align: center;
+}
+
